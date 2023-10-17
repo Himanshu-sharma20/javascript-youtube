@@ -32,6 +32,37 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// two types of memory Stack and Heap
+
+// stack(primitive) ,Heap(Non-primitive)
+
+//Example of  stack
+let myYoutunename="hiteshchoudhrydotcom"
+let anothername= myYoutunename
+
+anothername="chaiaurcode"
+
+// console.log(myYoutunename);
+// console.log(anothername);
+
+
+//Example of Heap memory
+ let userOne ={
+    email: "user@google.com",
+    upi: "xyz@ybl"
+
+ }
+
+let userTwo = userOne;
+
+ userTwo.email="Hitesh@google.com"
+
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
