@@ -37,6 +37,12 @@ const myFunction = function(){
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+
+
+
+
+
+
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // two types of memory Stack and Heap
 
@@ -64,5 +70,5 @@ let userTwo = userOne;
  userTwo.email="Hitesh@google.com"
 
 
- console.log(userOne.email);
- console.log(userTwo.email);
+ console.log(userOne.email);// Hitesh@google.com    
+ console.log(userTwo.email); //Hitesh@google.com The output is same because the same  referece is given to userTwo
